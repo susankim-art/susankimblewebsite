@@ -1,0 +1,186 @@
+
+/******Base Styles*******/
+/******this font listing gives a set font forthe whole webpage, base styles go here ususally color and font*****/
+    body {
+        font-family: 'Lato', sans-serif;
+        color: #000000;
+    }
+/***********GRID***********/
+/******these are the classes which refertothe html*******/
+/******give the classes definition*********/
+    .full-width {
+        margin: 0 auto;
+        overflow: auto;
+        width: 1200px;
+    }
+    .half-width {
+        float: left;
+        width: 600px;
+    }
+    .third-width {
+        float: left;
+        width: 400px;
+    }
+/**********Header**************/
+    header{
+        background: url('../img/blurredflower1200x700.png');
+        background-size:cover;
+        background-position:center;
+        height:800px;
+    }
+    h1 {
+        background-color: rgba(51, 3, 47, 0.6);
+        color: #EEF0E0;
+        font-family: 'Big Shoulders Inline Text';
+        font-size: 130px;
+        margin-top: 225px;
+        padding-left: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 830px;
+    }
+    nav {
+        float: right;
+        margin-top: 20px;
+        background-color: #dce8f5;
+    }
+    nav ul li{
+        display: inline-block;
+
+    }
+    nav ul li a {
+
+        color: #400f40;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        margin-right: 25px;
+        padding: 10px;
+        text-transform:uppercase;
+        text-decoration:none;
+        font-weight: bold;
+
+    }
+    header h2 {
+
+        background-color: #aaa03c;
+        color: #11150e;
+        font-family: 'Josefin San', sans-serif;
+        font-size: 36px;
+        line-height: 41px;
+        margin-top: 600px;
+        margin-left: 450px;
+        padding:20px;
+        text-align:right;
+        text-transform:uppercase;
+        text-decoration:none;
+        font-style: italic;
+        font-weight: bold;
+        width: 700px;
+
+    }
+/********ABOUTsection**********/
+/****combines id and class to stylize the about section*****/
+    #about .full-width {
+        padding-top: 70px;
+        text-align: center;
+    }
+
+    #about h2 {
+
+        font-family:'Lora', serif;
+        font-size:50px;
+        text-align: center;
+    }
+
+    #about p {
+        color: #3c3c54;
+        font-size:30px;
+        letter-spacing: 1px;
+        line-height:40px;
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    #work {
+        background-color: #a3dbff;
+			margin:0;
+        text-align: center;
+    }
+    #work h2 {
+        font-size: 50px;
+
+    }
+    #work .full-width {
+        padding: 70px;
+
+    }
+
+    #work h3 {
+        font-family:'Lato', sans-serif;
+        font-size:28px;
+        font-weight: bold;
+        line-height:32px;
+        margin: 20px auto;
+        padding-top: 50px;
+        width:190px;
+    }
+
+    #work p {
+
+        font-size:24px;
+        line-height: 30px;
+        padding: 0 50px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+    #contact .full-width {
+        padding: 70px 0;
+
+    }
+    #contact h2 {
+        font-size: 50px;
+
+
+    }
+
+    #contact h3 {
+        font-family:'Lato', sans-serif;
+        font-size:30px;
+        font-weight: bold;
+        line-height:32px;
+        margin: 0 auto;
+        padding-top: 30px;
+        width:190px;
+
+    }
+
+    #contact p {
+        color: #400f40;
+        font-size:24px;
+        line-height: 30px;
+        padding: 25px 50px;
+
+    }
+    #contact ul {
+        list-style: none;
+    }
+    #contact ul li {
+         display: inline-block;
+         padding-top: 25px;
+    }
+    #contact ul img {
+        padding-right: 48px;
+    }
+    footer {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    /******contact image needed it own id. the id goes in the middle of the html img tag-refer to index to understand....this refers to the jubilee website design**********/
+    /*********Add id's envelope, email-header, socialmedia-header to html index**********/
+
+
+
+
+    /******The icons aligned with text******/
